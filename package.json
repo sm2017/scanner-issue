@@ -1,0 +1,31 @@
+{
+  "name": "scanner",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "i18next-scanner": "i18next-scanner --config i18next-scanner.config.js 'src/**/*.{js,jsx}'"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-i18next": "^10.0.5",
+    "react-native": "0.58.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/preset-flow": "^7.0.0",
+    "add": "^2.0.6",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "i18next-scanner": "^2.9.1",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3",
+    "yarn": "^1.13.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
